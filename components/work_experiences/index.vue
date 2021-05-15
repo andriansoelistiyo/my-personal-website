@@ -1,0 +1,68 @@
+<template>
+  <div class="a-card p-16">
+    <div class="content_group">
+      <h2 class="h2-text">Work experiences</h2>
+      <LazyExperienceGroup :items="experiences" />
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'WorkExperiences',
+  data() {
+    return {
+      experiences: [
+        {
+          id: 1,
+          logo: require('~/assets/img/company/finpedia.png'),
+          company: 'PT. Solusi Inkubasi Finansial',
+          type: 'Freelance',
+          occupation: 'UI/UX Designer and Front End Developer',
+          start_date: 'January 2021',
+          end_date: 'March 2021',
+          website: 'https://finpedia.id/',
+          task_1: 'Heuristic Evaluation',
+          task_2: 'Create Wireframe',
+          task_3: 'Create Design System',
+          task_4: 'Create Lo-Fi & Hi-Fi Design',
+          task_5: 'Create Prototype',
+          task_6: 'Usability Testing',
+          task_7: 'Develop using Vue JS & Nuxt JS',
+          task_8: '',
+          task_9: '',
+          task_10: '',
+          task_11: '',
+          task_12: '',
+          task_13: '',
+          task_14: '',
+        },
+        {
+          id: 2,
+          logo: require('~/assets/img/company/telunjuk.jpeg'),
+          company: 'PT. Telunjuk Komputasi Indonesia',
+          type: 'Full Time',
+          occupation: 'UI/UX Designer and Front End Developer',
+          start_date: 'April 2018',
+          end_date: 'February 2021',
+          website: 'https://telunjuk.com/',
+          task_1: 'Heuristic Evaluation',
+          task_2: 'User Research',
+          task_3: 'Affinity Mapping',
+          task_4: 'Create Information Architecture',
+          task_5: 'Create User Flow',
+          task_6: 'Create Wireframe',
+          task_7: 'Create Design System',
+          task_8: 'Create Lo-Fi & Hi-Fi Design',
+          task_9: 'Create Prototype',
+          task_10: 'Usability Testing',
+          task_11: 'Develop using Vue JS & Nuxt JS',
+          task_12: 'Track performance using Google Analytics',
+          task_13: 'A/B Testing using Google Optimize',
+          task_14: 'Craete visual data using Google Data Studio',
+        },
+      ],
+    }
+  },
+}
+</script>
