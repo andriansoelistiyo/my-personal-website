@@ -22,7 +22,7 @@
       </div>
     </div>
   </div>
-  <div v-else-if="$device.isMobile">
+  <div v-else>
     <div class="container text-center">
       <img
         class="img-fluid mt-32"
