@@ -118,6 +118,6 @@ export default {
       ],
     }
   },
-  // layout: (ctx) => (ctx.$device.isMobile ? 'mobile' : 'default'),
+  layout: (ctx) => (ctx.$device.isMobile ? 'mobile' : 'default'),
 }
 </script>
