@@ -1,5 +1,14 @@
 <template>
-  <div v-if="$device.isDesktop">
+  <div v-if="$device.isMobile">
+    <div class="container text-center">
+      <img
+        class="img-fluid mt-32"
+        src="https://cdn.dribbble.com/users/308895/screenshots/2598725/no-results.gif"
+        alt="no content"
+      />
+    </div>
+  </div>
+  <div v-else>
     <div class="container">
       <div class="py-32">
         <LazyBio />
@@ -20,15 +29,6 @@
           >
         </div>
       </div>
-    </div>
-  </div>
-  <div v-else>
-    <div class="container text-center">
-      <img
-        class="img-fluid mt-32"
-        src="https://cdn.dribbble.com/users/308895/screenshots/2598725/no-results.gif"
-        alt="no content"
-      />
     </div>
   </div>
 </template>
@@ -118,5 +118,6 @@ export default {
       ],
     }
   },
+  layout: (ctx) => (ctx.$device.isMobile ? 'mobile' : 'default'),
 }
 </script>
