@@ -51,6 +51,9 @@ export default {
     // https://www.npmjs.com/package/@nuxtjs/device
     '@nuxtjs/device',
   ],
+  device: {
+    refreshOnResize: true,
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
