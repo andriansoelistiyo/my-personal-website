@@ -54,7 +54,7 @@ export default {
   device: {
     refreshOnResize: true,
     defaultUserAgent:
-      'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.39 Mobile Safari/537.36',
+      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.39 Safari/537.36',
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
