@@ -1,33 +1,22 @@
 <template>
-  <div v-if="$device.isMobile">
-    <div class="container text-center">
-      <img
-        class="img-fluid mt-32"
-        src="https://cdn.dribbble.com/users/308895/screenshots/2598725/no-results.gif"
-        alt="no content"
-      />
-    </div>
-  </div>
-  <div v-else>
-    <div class="container">
-      <div class="py-32">
-        <LazyBio />
-        <div class="row">
-          <div class="col-8">
-            <LazyWorkExperiences class="mt-32" />
-            <LazyPersonalProjects class="mt-32" />
-            <LazyEducation class="mt-32" />
-          </div>
-          <div class="col-4">
-            <LazyRightContent class="mt-32" />
-          </div>
+  <div class="container">
+    <div class="py-32">
+      <LazyBio />
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-8 col-xl-8">
+          <LazyWorkExperiences class="mt-32" />
+          <LazyPersonalProjects class="mt-32" />
+          <LazyEducation class="mt-32" />
         </div>
-        <div class="body-text text-center mt-32">
-          Copyright © {{ new Date().getFullYear() }}, designed by
-          <a href="https://andriansoelistiyo.netlify.app/" target="_blank"
-            >Andrian Soelistiyo</a
-          >
+        <div class="col-12 col-md-12 col-lg-4 col-xl-4">
+          <LazyRightContent class="mt-32" />
         </div>
+      </div>
+      <div class="body-text text-center mt-32">
+        Copyright © {{ new Date().getFullYear() }}, designed by
+        <a href="https://andriansoelistiyo.netlify.app/" target="_blank"
+          >Andrian Soelistiyo</a
+        >
       </div>
     </div>
   </div>
@@ -36,6 +25,7 @@
 <script>
 import ogImage from '@/assets/img/logo/nuxt.png'
 export default {
+  layout: (ctx) => (ctx.$device.isMobile ? 'mobile' : 'default'),
   head() {
     return {
       title: 'Andrian Soelistiyo - My personal website',
@@ -118,6 +108,5 @@ export default {
       ],
     }
   },
-  layout: (ctx) => (ctx.$device.isMobile ? 'mobile' : 'default'),
 }
 </script>

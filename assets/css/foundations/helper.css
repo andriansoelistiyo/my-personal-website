@@ -33,54 +33,22 @@
 
 /* mobile screen */
 @media screen and (max-width: 576px) {
-  /* code */
-
-  /* pinjaman card */
-  .scroll-horizontal-mobile {
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-  .scroll-horizontal-mobile > .container-mobile-grid-show-1 {
-    width: 80%;
-  }
 }
 
 /* horizontal mobile screen */
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  /* code */
-
-  /* pinjaman font */
-  .scroll-horizontal-mobile {
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-  .scroll-horizontal-mobile > .container-mobile-grid-show-1 {
-    width: 48%;
-  }
 }
 
 /* ipad screen */
 @media screen and (min-width: 767px) and (max-width: 992px) {
-  /* code */
-
-  /* pinjaman font */
-  .scroll-horizontal-mobile {
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-  .scroll-horizontal-mobile > .container-mobile-grid-show-1 {
-    width: 40%;
-  }
 }
 
 /* ipad pro screen */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-  /* code */
 }
 
 /* desktop screen */
 @media screen and (min-width: 1201px) {
-  /* code */
 }
 
 html {

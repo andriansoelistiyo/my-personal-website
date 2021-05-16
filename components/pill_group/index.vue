@@ -19,16 +19,61 @@ export default {
 </script>
 
 <style scoped>
+/* mobile screen */
+@media screen and (max-width: 576px) {
+  .a-pill {
+    font-size: var(--body03);
+    line-height: var(--lhBody03);
+    margin-right: 4px;
+    margin-bottom: 8px;
+  }
+}
+
+/* horizontal mobile screen */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .a-pill {
+    font-size: var(--body03);
+    line-height: var(--lhBody03);
+    margin-right: 4px;
+    margin-bottom: 8px;
+  }
+}
+
+/* ipad screen */
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .a-pill {
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
+    margin-right: 8px;
+    margin-bottom: 12px;
+  }
+}
+
+/* ipad pro screen */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .a-pill {
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
+    margin-right: 8px;
+    margin-bottom: 12px;
+  }
+}
+
+/* desktop screen */
+@media screen and (min-width: 1201px) {
+  .a-pill {
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
+    margin-right: 8px;
+    margin-bottom: 12px;
+  }
+}
 .a-pill {
   padding: 4px 12px;
-  font-size: var(--body02);
-  line-height: var(--lhBody02);
   font-family: roboto400;
   background-color: var(--black06);
   color: var(--black02);
   border-radius: var(--bigRadius);
   display: inline-block;
-  margin-right: 8px;
-  margin-bottom: 12px;
 }
 </style>

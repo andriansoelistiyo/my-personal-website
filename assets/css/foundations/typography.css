@@ -78,6 +78,86 @@
        url('../../fonts/roboto/roboto-v20-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
 }
 
+/* mobile screen */
+@media screen and (max-width: 576px) {
+  .h1-text {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .h2-text {
+    font-size: var(--body01);
+    line-height: var(--lhBody01);
+  }
+  .body-text {
+    font-size: var(--body03);
+    line-height: var(--lhBody03);
+  }
+}
+
+/* horizontal mobile screen */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .h1-text {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .h2-text {
+    font-size: var(--body01);
+    line-height: var(--lhBody01);
+  }
+  .body-text {
+    font-size: var(--body03);
+    line-height: var(--lhBody03);
+  }
+}
+
+/* ipad screen */
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .h1-text {
+    font-size: var(--heading03);
+    line-height: var(--lhHeading03);
+  }
+  .h2-text {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .body-text {
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
+  }
+}
+
+/* ipad pro screen */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .h1-text {
+    font-size: var(--heading03);
+    line-height: var(--lhHeading03);
+  }
+  .h2-text {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .body-text {
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
+  }
+}
+
+/* desktop screen */
+@media screen and (min-width: 1201px) {
+  .h1-text {
+    font-size: var(--heading03);
+    line-height: var(--lhHeading03);
+  }
+  .h2-text {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .body-text {
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
+  }
+}
+
 /* font size heading */
 .fs-heading01 {
   font-size: var(--heading01) !important;
@@ -112,22 +192,16 @@
 }
 
 .h1-text {
-  font-size: var(--heading03);
-  line-height: var(--lhHeading03);
   font-family: poppins700;
   color: var(--black01);
 }
 
 .h2-text {
-  font-size: var(--heading05);
-  line-height: var(--lhHeading05);
   font-family: poppins700;
   color: var(--black01);
 }
 
 .body-text {
-  font-size: var(--body02);
-  line-height: var(--lhBody02);
   font-family: roboto400;
   color: var(--black02);
 }
