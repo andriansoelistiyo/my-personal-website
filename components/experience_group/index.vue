@@ -209,6 +209,15 @@ export default {
   .a-experience:last-child {
     margin-bottom: 0;
   }
+  .body-text > li:first-child {
+    margin-bottom: 4px;
+  }
+  .body-text > li {
+    margin-bottom: 4px;
+  }
+  .body-text > li:last-child {
+    margin-bottom: 0;
+  }
 }
 
 /* horizontal mobile screen */
@@ -227,6 +236,15 @@ export default {
     margin-bottom: 16px;
   }
   .a-experience:last-child {
+    margin-bottom: 0;
+  }
+  .body-text > li:first-child {
+    margin-bottom: 4px;
+  }
+  .body-text > li {
+    margin-bottom: 4px;
+  }
+  .body-text > li:last-child {
     margin-bottom: 0;
   }
 }
