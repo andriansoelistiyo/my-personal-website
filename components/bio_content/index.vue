@@ -31,10 +31,7 @@
         </div>
       </div>
       <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-        <div
-          v-if="$device.isMobile"
-          class="content_group mt-16 mb-16 d-block d-sm-none"
-        >
+        <div class="content_group mt-16 mb-16 d-block d-sm-none">
           <h2 class="h2-text">About me</h2>
           <p class="body-text">
             {{ item.about }}

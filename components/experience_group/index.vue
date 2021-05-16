@@ -2,7 +2,7 @@
   <div class="experience_group mt-16">
     <div v-for="item in items" :key="item.id" class="a-experience">
       <div class="d-flex">
-        <div v-if="$device.isMobile" class="flex-shrink-0 mr-32">
+        <div class="flex-shrink-0 mr-32 d-block d-sm-none">
           <img
             class="company-logo img-fluid rounded"
             width="32"
@@ -11,7 +11,7 @@
             :alt="item.company"
           />
         </div>
-        <div v-else class="flex-shrink-0 mr-32">
+        <div class="flex-shrink-0 mr-32 d-none d-sm-block">
           <img
             class="company-logo img-fluid rounded"
             width="48"
@@ -36,7 +36,7 @@
               {{ item.start_date }} - {{ item.end_date }}
             </div>
           </div>
-          <div v-if="$device.isMobile" class="mt-16 d-block d-sm-none">
+          <div class="mt-16 d-block d-sm-none">
             <ul class="body-text">
               <li v-if="item.task_1 !== null && item.task_1 !== ''">
                 {{ item.task_1 }}
@@ -82,7 +82,7 @@
               </li>
             </ul>
           </div>
-          <div v-else class="mt-16 d-none d-sm-block">
+          <div class="mt-16 d-none d-sm-block">
             <div class="row">
               <div class="col-6">
                 <ul class="body-text">
