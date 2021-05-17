@@ -171,6 +171,13 @@ export default {
         },
         {
           id: 3,
+          icon: 'fab fa-dribbble',
+          label: 'Dribbble',
+          link: 'https://dribbble.com/andriansoelistiyo/',
+          value: 'dribbble.com/andriansoelistiyo/',
+        },
+        {
+          id: 4,
           icon: 'fab fa-github',
           label: 'GitHub',
           link: 'https://github.com/andriansoelistiyo/',
