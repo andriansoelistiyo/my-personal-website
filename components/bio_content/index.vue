@@ -43,7 +43,7 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0 mr-16">
                       <div class="icon-container">
-                        <i class="far fa-handshake color-success"></i>
+                        <i class="far fa-handshake color-primary"></i>
                       </div>
                     </div>
                     <div class="flex-grow-0 mr-32">
@@ -230,7 +230,7 @@ export default {
 }
 .pill-open {
   padding: 8px;
-  background-color: var(--green03);
+  background-color: var(--blue03);
   border-radius: var(--bigRadius);
   display: inline-block;
 }

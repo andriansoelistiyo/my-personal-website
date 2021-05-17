@@ -29,7 +29,7 @@
                 >See Website <i class="fas fa-external-link-alt"></i
               ></a>
             </div>
-            <div class="body-text color-success">
+            <div class="body-text">
               {{ item.occupation }}
             </div>
             <div class="body-text">
