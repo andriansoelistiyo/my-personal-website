@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import ogImage from '@/assets/img/logo/nuxt.png'
+import ogImage from '@/assets/img/profile2.jpeg'
 export default {
   layout: (ctx) => (ctx.$device.isMobile ? 'mobile' : 'default'),
   head() {
