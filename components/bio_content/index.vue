@@ -237,7 +237,7 @@ export default {
 .pill-text-open {
   font-size: var(--body02);
   line-height: var(--lhBody02);
-  font-family: roboto400;
+  font-family: roboto500;
   color: var(--white);
 }
 </style>
