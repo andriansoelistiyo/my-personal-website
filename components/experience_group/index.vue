@@ -5,8 +5,8 @@
         <div class="flex-shrink-0 mr-32 d-block d-sm-none">
           <img
             class="company-logo img-fluid rounded"
-            width="32"
-            height="32"
+            width="40"
+            height="40"
             :src="item.logo"
             :alt="item.company"
           />
@@ -197,8 +197,8 @@ export default {
     margin-right: 16px;
   }
   .company-logo {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
   }
   .a-experience:first-child {
     margin-bottom: 16px;
@@ -226,8 +226,8 @@ export default {
     margin-right: 16px;
   }
   .company-logo {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
   }
   .a-experience:first-child {
     margin-bottom: 16px;
