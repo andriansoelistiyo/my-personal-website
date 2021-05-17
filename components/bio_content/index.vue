@@ -31,21 +31,30 @@
               v-if="$device.isDesktop"
               class="content_group mt-16 d-none d-sm-block"
             >
-              <div class="pill-open">
-                <div class="d-flex">
-                  <div class="flex-shrink-0 mr-16">
-                    <div class="icon-container">
-                      <i class="far fa-handshake color-success"></i>
+              <a
+                :href="
+                  'https://web.whatsapp.com/send?phone=62' +
+                  `${item.whatsapp}` +
+                  '&amp;text=Hello, I have visited your website and I want to know more about you. Do you have a free time today?'
+                "
+                target="_blank"
+              >
+                <div class="pill-open">
+                  <div class="d-flex">
+                    <div class="flex-shrink-0 mr-16">
+                      <div class="icon-container">
+                        <i class="far fa-handshake color-success"></i>
+                      </div>
                     </div>
-                  </div>
-                  <div class="flex-grow-0 mr-32">
-                    <div class="pill-text-open">
-                      I am available for a new project
+                    <div class="flex-grow-0 mr-32">
+                      <div class="pill-text-open">
+                        I am available for a new project
+                      </div>
+                      <div class="pill-text-open fw-bold">CONTACT ME!</div>
                     </div>
-                    <div class="pill-text-open fw-bold">CONTACT ME!</div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
