@@ -27,6 +27,26 @@
                 {{ item.about }}
               </p>
             </div>
+            <div
+              v-if="$device.isDesktop"
+              class="content_group mt-16 d-none d-sm-block"
+            >
+              <div class="pill-open">
+                <div class="d-flex">
+                  <div class="flex-shrink-0 mr-16">
+                    <div class="icon-container">
+                      <i class="far fa-handshake"></i>
+                    </div>
+                  </div>
+                  <div class="flex-grow-0 mr-32">
+                    <div class="pill-text-open">
+                      I am available for a new project
+                    </div>
+                    <div class="pill-text-open fw-bold">CONTACT ME!</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -198,5 +218,17 @@ export default {
     max-height: 176px;
     border-radius: 100%;
   }
+}
+.pill-open {
+  padding: 8px;
+  background-color: var(--green03);
+  border-radius: var(--bigRadius);
+  display: inline-block;
+}
+.pill-text-open {
+  font-size: var(--body02);
+  line-height: var(--lhBody02);
+  font-family: roboto400;
+  color: var(--black01);
 }
 </style>
