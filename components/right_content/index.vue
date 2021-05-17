@@ -2,63 +2,17 @@
   <div class="a-card p-16">
     <div class="content_group">
       <h2 class="h2-text">Skills</h2>
-      <LazyPillGroup :items="skills" />
+      <LazyPillGroup :items="skills" class="mt-16" />
     </div>
     <hr />
     <div class="content_group mt-16">
       <h2 class="h2-text">Tools</h2>
-      <LazyPillGroup :items="tools" />
+      <LazyPillGroup :items="tools" class="mt-16" />
     </div>
     <hr />
     <div class="content_group mt-16">
       <h2 class="h2-text">Portofolio and case study</h2>
-      <div class="link_group mt-16">
-        <div class="d-flex mb-8">
-          <div class="flex-shrink-0 mr-16">
-            <div class="icon-container">
-              <i class="fab fa-medium-m"></i>
-            </div>
-          </div>
-          <div class="flex-grow-1">
-            <div class="body-text">Medium</div>
-            <div class="body-text">
-              <a href="https://andriansoelistiyo.medium.com/" target="_blank">
-                andriansoelistiyo.medium.com/</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="d-flex mb-8">
-          <div class="flex-shrink-0 mr-16">
-            <div class="icon-container">
-              <i class="fab fa-behance"></i>
-            </div>
-          </div>
-          <div class="flex-grow-1">
-            <div class="body-text">Behance</div>
-            <div class="body-text">
-              <a href="https://behance.net/andriansoelist/" target="_blank">
-                behance.net/andriansoelist/</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="d-flex mb-8">
-          <div class="flex-shrink-0 mr-16">
-            <div class="icon-container">
-              <i class="fab fa-github"></i>
-            </div>
-          </div>
-          <div class="flex-grow-1">
-            <div class="body-text">GitHub</div>
-            <div class="body-text">
-              <a href="https://github.com/andriansoelistiyo/" target="_blank">
-                github.com/andriansoelistiyo/</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
+      <LazyIconLinkGroup :items="portofolios" class="mt-16" />
     </div>
   </div>
 </template>
@@ -198,6 +152,29 @@ export default {
         {
           id: 16,
           value: 'Trello',
+        },
+      ],
+      portofolios: [
+        {
+          id: 1,
+          icon: 'fab fa-medium-m',
+          label: 'Medium',
+          link: 'https://andriansoelistiyo.medium.com/',
+          value: 'andriansoelistiyo.medium.com/',
+        },
+        {
+          id: 2,
+          icon: 'fab fa-behance',
+          label: 'Behance',
+          link: 'https://behance.net/andriansoelist/',
+          value: 'behance.net/andriansoelist/',
+        },
+        {
+          id: 3,
+          icon: 'fab fa-github',
+          label: 'GitHub',
+          link: 'https://github.com/andriansoelistiyo/',
+          value: 'github.com/andriansoelistiyo/',
         },
       ],
     }

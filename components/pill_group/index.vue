@@ -1,5 +1,5 @@
 <template>
-  <div class="pill_group mt-16">
+  <div class="pill_group">
     <div v-for="item in items" :key="item.id" class="a-pill">
       {{ item.value }}
     </div>
