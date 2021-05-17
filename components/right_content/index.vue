@@ -16,7 +16,7 @@
         <div class="d-flex mb-8">
           <div class="flex-shrink-0 mr-16">
             <div class="icon-container">
-              <i class="fab fa-medium-m icon-content-long"></i>
+              <i class="fab fa-medium-m"></i>
             </div>
           </div>
           <div class="flex-grow-1">
@@ -31,7 +31,7 @@
         <div class="d-flex mb-8">
           <div class="flex-shrink-0 mr-16">
             <div class="icon-container">
-              <i class="fab fa-behance icon-content-long"></i>
+              <i class="fab fa-behance"></i>
             </div>
           </div>
           <div class="flex-grow-1">
@@ -46,7 +46,7 @@
         <div class="d-flex mb-8">
           <div class="flex-shrink-0 mr-16">
             <div class="icon-container">
-              <i class="fab fa-github icon-content"></i>
+              <i class="fab fa-github"></i>
             </div>
           </div>
           <div class="flex-grow-1">

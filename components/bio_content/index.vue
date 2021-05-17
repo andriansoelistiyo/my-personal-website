@@ -42,7 +42,7 @@
           <div class="d-flex mb-8">
             <div class="flex-shrink-0 mr-16">
               <div class="icon-container">
-                <i class="fab fa-whatsapp icon-content"></i>
+                <i class="fab fa-whatsapp"></i>
               </div>
             </div>
             <div class="flex-grow-1">
@@ -63,7 +63,7 @@
           <div class="d-flex mb-8">
             <div class="flex-shrink-0 mr-16">
               <div class="icon-container">
-                <i class="fas fa-envelope icon-content-long"></i>
+                <i class="fas fa-envelope"></i>
               </div>
             </div>
             <div class="flex-grow-1">
@@ -83,7 +83,7 @@
           <div class="d-flex mb-8">
             <div class="flex-shrink-0 mr-16">
               <div class="icon-container">
-                <i class="fab fa-linkedin-in icon-content"></i>
+                <i class="fab fa-linkedin-in"></i>
               </div>
             </div>
             <div class="flex-grow-1">
@@ -98,7 +98,7 @@
           <div class="d-flex mb-8">
             <div class="flex-shrink-0 mr-16">
               <div class="icon-container">
-                <i class="fab fa-instagram icon-content"></i>
+                <i class="fab fa-instagram"></i>
               </div>
             </div>
             <div class="flex-grow-1">
@@ -113,7 +113,7 @@
           <div class="d-flex">
             <div class="flex-shrink-0 mr-16">
               <div class="icon-container">
-                <i class="fab fa-twitter icon-content"></i>
+                <i class="fab fa-twitter"></i>
               </div>
             </div>
             <div class="flex-grow-1">
