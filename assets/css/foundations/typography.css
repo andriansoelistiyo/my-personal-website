@@ -89,8 +89,8 @@
     line-height: var(--lhBody01);
   }
   .body-text {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
   }
 }
 
@@ -105,8 +105,8 @@
     line-height: var(--lhBody01);
   }
   .body-text {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
   }
 }
 

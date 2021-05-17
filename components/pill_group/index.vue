@@ -22,20 +22,20 @@ export default {
 /* mobile screen */
 @media screen and (max-width: 576px) {
   .a-pill {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
-    margin-right: 4px;
-    margin-bottom: 8px;
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
+    margin-right: 8px;
+    margin-bottom: 12px;
   }
 }
 
 /* horizontal mobile screen */
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .a-pill {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
-    margin-right: 4px;
-    margin-bottom: 8px;
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
+    margin-right: 8px;
+    margin-bottom: 12px;
   }
 }
 

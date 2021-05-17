@@ -22,17 +22,17 @@
         </div>
         <div class="flex-grow-1">
           <div class="head-content">
-            <div class="body-text">
+            <div class="body-text" style="margin-bottom: 4px">
               <span class="fw-bold">{{ item.company }}</span>
               • {{ item.type }} •
               <a :href="item.website" target="_blank"
                 >See Website <i class="fas fa-external-link-alt"></i
               ></a>
             </div>
-            <div class="body-text">
+            <div class="body-text" style="margin-bottom: 4px">
               {{ item.occupation }}
             </div>
-            <div class="body-text">
+            <div class="body-text" style="margin-bottom: 4px">
               {{ item.start_date }} - {{ item.end_date }}
             </div>
           </div>

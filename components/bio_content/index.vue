@@ -3,7 +3,16 @@
     <div v-for="item in items" :key="item.id" class="row">
       <div class="col-12 col-md-8 col-lg-8 col-xl-8">
         <div class="d-flex pr-16">
-          <div class="flex-shrink-0 mr-32">
+          <div class="flex-shrink-0 mr-32 d-block d-sm-none">
+            <img
+              class="profile-image img-fluid"
+              :src="item.profile_image"
+              width="96"
+              height="96"
+              :alt="item.name"
+            />
+          </div>
+          <div class="flex-shrink-0 mr-32 d-none d-sm-block">
             <img
               class="profile-image img-fluid"
               :src="item.profile_image"
@@ -176,8 +185,8 @@ export default {
 /* mobile screen */
 @media screen and (max-width: 576px) {
   .profile-image {
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 96px;
+    max-height: 96px;
     border-radius: 100%;
   }
   .mr-32 {
@@ -191,8 +200,8 @@ export default {
 /* horizontal mobile screen */
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .profile-image {
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 96px;
+    max-height: 96px;
     border-radius: 100%;
   }
   .mr-32 {
