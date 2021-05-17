@@ -34,14 +34,14 @@ export default {
         {
           name: 'keywords',
           content:
-            'curriculum vitae, biodata, work experiences, personal projects, education, skills, tools, portofolio, case study',
+            'ui/ux designer, product designer, front end developer, work experiences, projects, portofolio, case study',
         },
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
           hid: 'description',
           name: 'description',
           content:
-            'My personal website that serve you informations about curriculum vitae, biodata, work experiences, personal projects, education, skills, tools, portofolio, case study',
+            'I love help people with technology. That’s why I learn UI/UX Designer, build a product to solve their problem and make an impact for a better life.',
         },
         {
           name: 'fb:app_id',
@@ -72,7 +72,7 @@ export default {
           name: 'og:description',
           property: 'og:description',
           content:
-            'My personal website that serve you informations about curriculum vitae, biodata, work experiences, personal projects, education, skills, tools, portofolio, case study',
+            'I love help people with technology. That’s why I learn UI/UX Designer, build a product to solve their problem and make an impact for a better life.',
         },
         { name: 'og:locale', property: 'og:locale', content: 'id_ID' },
         {
@@ -94,7 +94,7 @@ export default {
         {
           name: 'twitter:description',
           content:
-            'My personal website that serve you informations about curriculum vitae, biodata, work experiences, personal projects, education, skills, tools, portofolio, case study',
+            'I love help people with technology. That’s why I learn UI/UX Designer, build a product to solve their problem and make an impact for a better life.',
         },
         {
           name: 'twitter:image',

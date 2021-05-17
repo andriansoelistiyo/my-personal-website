@@ -15,7 +15,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'My personal website that serve you informations about curriculum vitae, biodata, work experiences, personal projects, education, skills, tools, portofolio, case study',
+          'I love help people with technology. That’s why I learn UI/UX Designer, build a product to solve their problem and make an impact for a better life.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
