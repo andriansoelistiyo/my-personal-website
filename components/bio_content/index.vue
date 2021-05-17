@@ -33,9 +33,9 @@
             >
               <a
                 :href="
-                  'https://web.whatsapp.com/send?phone=62' +
+                  'https://wa.me/62' +
                   `${item.whatsapp}` +
-                  '&amp;text=Hello, I have visited your website and I want to know more about you. Do you have a free time today?'
+                  '?text=Hello, I have visited your website and I want to know more about you. Do you have a free time today?'
                 "
                 target="_blank"
               >
@@ -79,9 +79,9 @@
               <div class="body-text">
                 <a
                   :href="
-                    'https://web.whatsapp.com/send?phone=62' +
+                    'https://wa.me/62' +
                     `${item.whatsapp}` +
-                    '&amp;text=Hello, I have visited your website and I want to know more about you. Do you have a free time today?'
+                    '?text=Hello, I have visited your website and I want to know more about you. Do you have a free time today?'
                   "
                   target="_blank"
                   >+62 {{ item.whatsapp }}</a
