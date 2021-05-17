@@ -1,5 +1,27 @@
 .a-card {
-    border-radius: var(--mediumRadius);
-    box-shadow: var(--shadow);
-    background-color: var(--white);
+  border-radius: var(--mediumRadius);
+  box-shadow: var(--shadow);
+  background-color: var(--white);
+}
+
+.icon-container {
+  height: 40px;
+  width: 40px;
+  background-color: var(--black06);
+  border-radius: 100%;
+  position: relative;
+}
+
+.icon-content {
+  position: absolute;
+  left: 30%;
+  top: 28%;
+  font-size: 18px;
+}
+
+.icon-content-long {
+  position: absolute;
+  left: 28%;
+  top: 28%;
+  font-size: 18px;
 }

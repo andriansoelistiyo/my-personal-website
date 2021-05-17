@@ -13,23 +13,50 @@
     <div class="content_group mt-16">
       <h2 class="h2-text">Portofolio and case study</h2>
       <div class="link_group mt-16">
-        <div class="body-text mb-8">
-          <i class="fab fa-medium mr-8"></i>
-          <a href="https://andriansoelistiyo.medium.com/" target="_blank"
-            >andriansoelistiyo.medium.com/</a
-          >
+        <div class="d-flex mb-8">
+          <div class="flex-shrink-0 mr-16">
+            <div class="icon-container">
+              <i class="fab fa-medium-m icon-content-long"></i>
+            </div>
+          </div>
+          <div class="flex-grow-1">
+            <div class="body-text">Medium</div>
+            <div class="body-text">
+              <a href="https://andriansoelistiyo.medium.com/" target="_blank">
+                andriansoelistiyo.medium.com/</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="body-text mb-8">
-          <i class="fab fa-behance-square mr-8"></i>
-          <a href="https://www.behance.net/andriansoelist" target="_blank"
-            >behance.net/andriansoelist/</a
-          >
+        <div class="d-flex mb-8">
+          <div class="flex-shrink-0 mr-16">
+            <div class="icon-container">
+              <i class="fab fa-behance icon-content-long"></i>
+            </div>
+          </div>
+          <div class="flex-grow-1">
+            <div class="body-text">Behance</div>
+            <div class="body-text">
+              <a href="https://behance.net/andriansoelist/" target="_blank">
+                behance.net/andriansoelist/</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="body-text">
-          <i class="fab fa-github-square mr-8"></i>
-          <a href="https://github.com/andriansoelistiyo" target="_blank"
-            >github.com/andriansoelistiyo/</a
-          >
+        <div class="d-flex mb-8">
+          <div class="flex-shrink-0 mr-16">
+            <div class="icon-container">
+              <i class="fab fa-github icon-content"></i>
+            </div>
+          </div>
+          <div class="flex-grow-1">
+            <div class="body-text">GitHub</div>
+            <div class="body-text">
+              <a href="https://github.com/andriansoelistiyo/" target="_blank">
+                github.com/andriansoelistiyo/</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>

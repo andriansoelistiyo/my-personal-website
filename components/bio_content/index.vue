@@ -39,44 +39,91 @@
         </div>
         <div class="content_group pl-16">
           <h2 class="h2-text">Contacts</h2>
-          <div class="body-text mb-8">
-            <i class="fab fa-whatsapp-square mr-8"></i>
-            <a
-              :href="
-                'https://web.whatsapp.com/send?phone=62' +
-                `${item.whatsapp}` +
-                '&amp;text=Hello, I have visited your website and I want to know more about you. Do you have a free time today?'
-              "
-              target="_blank"
-              >+62 {{ item.whatsapp }} (Whatsapp)</a
-            >
+          <div class="d-flex mb-8">
+            <div class="flex-shrink-0 mr-16">
+              <div class="icon-container">
+                <i class="fab fa-whatsapp icon-content"></i>
+              </div>
+            </div>
+            <div class="flex-grow-1">
+              <div class="body-text">Whatsapp</div>
+              <div class="body-text">
+                <a
+                  :href="
+                    'https://web.whatsapp.com/send?phone=62' +
+                    `${item.whatsapp}` +
+                    '&amp;text=Hello, I have visited your website and I want to know more about you. Do you have a free time today?'
+                  "
+                  target="_blank"
+                  >+62 {{ item.whatsapp }}</a
+                >
+              </div>
+            </div>
           </div>
-          <div class="body-text mb-8">
-            <i class="fas fa-envelope mr-8"></i>
-            <a
-              :href="
-                'https://mail.google.com/mail/?view=cm&fs=1&to=' +
-                `${item.email}`
-              "
-              target="_blank"
-              >{{ item.email }}</a
-            >
+          <div class="d-flex mb-8">
+            <div class="flex-shrink-0 mr-16">
+              <div class="icon-container">
+                <i class="fas fa-envelope icon-content-long"></i>
+              </div>
+            </div>
+            <div class="flex-grow-1">
+              <div class="body-text">E-mail</div>
+              <div class="body-text">
+                <a
+                  :href="
+                    'https://mail.google.com/mail/?view=cm&fs=1&to=' +
+                    `${item.email}`
+                  "
+                  target="_blank"
+                  >{{ item.email }}</a
+                >
+              </div>
+            </div>
           </div>
-          <div class="body-text mb-8">
-            <i class="fab fa-linkedin mr-8"></i>
-            <a :href="item.linkedin_link" target="_blank">{{
-              item.linkedin
-            }}</a>
+          <div class="d-flex mb-8">
+            <div class="flex-shrink-0 mr-16">
+              <div class="icon-container">
+                <i class="fab fa-linkedin-in icon-content"></i>
+              </div>
+            </div>
+            <div class="flex-grow-1">
+              <div class="body-text">Linkedin</div>
+              <div class="body-text">
+                <a :href="item.linkedin_link" target="_blank">{{
+                  item.linkedin
+                }}</a>
+              </div>
+            </div>
           </div>
-          <div class="body-text mb-8">
-            <i class="fab fa-instagram-square mr-8"></i>
-            <a :href="item.instagram_link" target="_blank">{{
-              item.instagram
-            }}</a>
+          <div class="d-flex mb-8">
+            <div class="flex-shrink-0 mr-16">
+              <div class="icon-container">
+                <i class="fab fa-instagram icon-content"></i>
+              </div>
+            </div>
+            <div class="flex-grow-1">
+              <div class="body-text">Instagram</div>
+              <div class="body-text">
+                <a :href="item.instagram_link" target="_blank">{{
+                  item.instagram
+                }}</a>
+              </div>
+            </div>
           </div>
-          <div class="body-text">
-            <i class="fab fa-twitter-square mr-8"></i>
-            <a :href="item.twitter_link" target="_blank">{{ item.twitter }}</a>
+          <div class="d-flex">
+            <div class="flex-shrink-0 mr-16">
+              <div class="icon-container">
+                <i class="fab fa-twitter icon-content"></i>
+              </div>
+            </div>
+            <div class="flex-grow-1">
+              <div class="body-text">Twitter</div>
+              <div class="body-text">
+                <a :href="item.twitter_link" target="_blank">{{
+                  item.twitter
+                }}</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
