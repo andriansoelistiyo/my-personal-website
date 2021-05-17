@@ -10,7 +10,7 @@
   /* finpedia green */
   --green01: #024f2a;
   --green02: #049f54;
-  --green03: #06ef7e;
+  --green03: #03ac0e;
   --green04: #4cfaa6;
   --green05: #9cfcce;
   --green06: #ebfef5;
@@ -79,5 +79,5 @@
 }
 
 .color-success {
-  color: var(--green02) !important;
+  color: var(--green03) !important;
 }

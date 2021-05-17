@@ -35,7 +35,7 @@
                 <div class="d-flex">
                   <div class="flex-shrink-0 mr-16">
                     <div class="icon-container">
-                      <i class="far fa-handshake"></i>
+                      <i class="far fa-handshake color-success"></i>
                     </div>
                   </div>
                   <div class="flex-grow-0 mr-32">
@@ -229,6 +229,6 @@ export default {
   font-size: var(--body02);
   line-height: var(--lhBody02);
   font-family: roboto400;
-  color: var(--black01);
+  color: var(--white);
 }
 </style>
