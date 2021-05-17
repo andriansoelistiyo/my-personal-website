@@ -55,12 +55,12 @@ export default {
         {
           name: 'og:title',
           property: 'og:title',
-          content: 'Andrian Soelistiyo - Personal website',
+          content: 'Andrian Soelistiyo - My personal website',
         },
         {
           name: 'og:site_name',
           property: 'og:site_name',
-          content: 'Andrian Soelistiyo - Personal website',
+          content: 'Andrian Soelistiyo - My personal website',
         },
         {
           name: 'og:url',
@@ -83,7 +83,7 @@ export default {
         { name: 'twitter:card', content: 'summary_large_image' },
         {
           name: 'twitter:title',
-          content: 'Andrian Soelistiyo - Personal website',
+          content: 'Andrian Soelistiyo - My personal website',
         },
         { name: 'twitter:site', content: '@andriantweets' },
         {
