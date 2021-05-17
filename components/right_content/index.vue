@@ -191,6 +191,14 @@ export default {
           id: 14,
           value: 'Google Data Studio',
         },
+        {
+          id: 15,
+          value: 'Jira',
+        },
+        {
+          id: 16,
+          value: 'Trello',
+        },
       ],
     }
   },
