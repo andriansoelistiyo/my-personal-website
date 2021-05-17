@@ -75,5 +75,6 @@ export default {
   color: var(--black02);
   border-radius: var(--bigRadius);
   display: inline-block;
+  white-space: nowrap;
 }
 </style>
