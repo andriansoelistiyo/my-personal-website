@@ -77,7 +77,3 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
 }
-
-.color-success {
-  color: var(--green03) !important;
-}
