@@ -242,6 +242,12 @@ export default {
   background-color: var(--blue03);
   border-radius: var(--bigRadius);
   display: inline-block;
+  -webkit-transition: -webkit-background-color 0.3s;
+  transition: -webkit-background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.pill-open:hover {
+  background-color: var(--blue02);
 }
 .pill-text-open {
   font-size: var(--body02);
