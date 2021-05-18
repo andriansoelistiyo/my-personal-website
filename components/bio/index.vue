@@ -23,9 +23,9 @@ export default {
           linkedin: 'Andrian Soelistiyo',
           linkedin_link:
             'https://www.linkedin.com/in/andrian-soelistiyo-6a9324a1/',
-          instagram: 'andrian.soelistiyo',
+          instagram: '@andrian.soelistiyo',
           instagram_link: 'https://www.instagram.com/andrian.soelistiyo/',
-          twitter: 'andriantweets',
+          twitter: '@andriantweets',
           twitter_link: 'https://twitter.com/andriantweets/',
         },
       ],
