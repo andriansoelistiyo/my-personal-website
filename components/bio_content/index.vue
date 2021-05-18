@@ -55,7 +55,7 @@
                         <i class="far fa-handshake color-primary"></i>
                       </div>
                     </div>
-                    <div class="flex-grow-0 mr-32">
+                    <div class="flex-grow-0 mr-16">
                       <div class="pill-text-open">
                         I am available for a new project
                       </div>
