@@ -1,6 +1,6 @@
 .a-card {
   border-radius: var(--mediumRadius);
-  box-shadow: var(--shadow);
+  border: 1px solid var(--black05);
   background-color: var(--white);
 }
 
