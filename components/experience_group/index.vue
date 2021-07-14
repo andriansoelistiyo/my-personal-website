@@ -22,10 +22,7 @@
         </div>
         <div class="flex-grow-1">
           <div class="head-content">
-            <div
-              v-if="item.website !== null && item.website == ''"
-              class="body-text mb-1"
-            >
+            <div v-if="item.website == ''" class="body-text mb-1">
               <span class="fw-bold">{{ item.company }}</span>
               • {{ item.type }}
             </div>
