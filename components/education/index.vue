@@ -21,7 +21,7 @@ export default {
           occupation: 'Bachelor of Computer Science',
           start_date: 'September 2012',
           end_date: 'August 2018',
-          website: 'https://binus.ac.id/',
+          website: '',
           task_1: 'Learn C/C++',
           task_2: 'Learn Java Programming',
           task_3: 'Learn Database',
