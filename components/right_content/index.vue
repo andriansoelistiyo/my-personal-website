@@ -153,6 +153,10 @@ export default {
           id: 16,
           value: 'Trello',
         },
+        {
+          id: 17,
+          value: 'Notion',
+        },
       ],
       portofolios: [
         {
