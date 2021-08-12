@@ -61,30 +61,34 @@ export default {
         },
         {
           id: 10,
-          value: 'Usability Testing',
+          value: 'Auto layout',
         },
         {
           id: 11,
-          value: 'A/B Testing',
+          value: 'Usability Testing',
         },
         {
           id: 12,
-          value: 'HTML',
+          value: 'A/B Testing',
         },
         {
           id: 13,
-          value: 'CSS',
+          value: 'HTML',
         },
         {
           id: 14,
-          value: 'JavaScript',
+          value: 'CSS',
         },
         {
           id: 15,
-          value: 'Vue JS',
+          value: 'JavaScript',
         },
         {
           id: 16,
+          value: 'Vue JS',
+        },
+        {
+          id: 17,
           value: 'Nuxt JS',
         },
       ],
