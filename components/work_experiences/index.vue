@@ -39,7 +39,7 @@ export default {
         },
         {
           id: 2,
-          logo: require('~/assets/img/company/compas.jpeg'),
+          logo: require('~/assets/img/company/compas.jpg'),
           company: 'Compas.co.id',
           type: 'Full Time',
           occupation: 'UI/UX Designer and Front End Developer',
