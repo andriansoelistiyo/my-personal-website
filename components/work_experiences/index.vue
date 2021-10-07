@@ -19,7 +19,7 @@ export default {
           company: 'Astra Graphia Information Technology',
           type: 'Full Time',
           occupation: 'UI/UX Designer',
-          start_date: 'May 2021',
+          start_date: 'April 2021',
           end_date: 'Now',
           website: '',
           task_1: 'Heuristic Evaluation',
