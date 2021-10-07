@@ -295,10 +295,10 @@ export default {
     margin-bottom: 0;
   }
   .body-text > li:first-child {
-    margin-bottom: 4px;
+    margin-bottom: 8px;
   }
   .body-text > li {
-    margin-bottom: 4px;
+    margin-bottom: 8px;
   }
   .body-text > li:last-child {
     margin-bottom: 0;
@@ -324,10 +324,10 @@ export default {
     margin-bottom: 0;
   }
   .body-text > li:first-child {
-    margin-bottom: 4px;
+    margin-bottom: 8px;
   }
   .body-text > li {
-    margin-bottom: 4px;
+    margin-bottom: 8px;
   }
   .body-text > li:last-child {
     margin-bottom: 0;
@@ -364,6 +364,21 @@ export default {
   }
   .a-experience:last-child {
     margin-bottom: 0;
+  }
+  .divider-row:first-child {
+    border-bottom: 1px solid var(--black06);
+    width: 100%;
+  }
+  .divider-row {
+    border-bottom: 1px solid var(--black06);
+    width: 100%;
+  }
+  .divider-row:last-child {
+    border-bottom: 0px solid var(--black06);
+    width: 100%;
+  }
+  .divider-row > div > ul {
+    margin-bottom: 8px;
   }
 }
 
