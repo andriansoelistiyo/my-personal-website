@@ -87,42 +87,156 @@
             </ul>
           </div>
           <div class="mt-16 d-none d-sm-block">
-            <div class="row">
+            <div
+              v-if="item.task_1 !== null && item.task_1 !== ''"
+              class="row divider-row"
+            >
               <div class="col-6">
                 <ul class="body-text">
                   <li v-if="item.task_1 !== null && item.task_1 !== ''">
                     {{ item.task_1 }}
                   </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="body-text">
+                  <li v-if="item.task_2 !== null && item.task_2 !== ''">
+                    {{ item.task_2 }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              v-if="item.task_3 !== null && item.task_3 !== ''"
+              class="row divider-row"
+            >
+              <div class="col-6">
+                <ul class="body-text">
                   <li
                     v-if="item.task_3 !== null && item.task_3 !== ''"
                     class="mt-8"
                   >
                     {{ item.task_3 }}
                   </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="body-text">
+                  <li
+                    v-if="item.task_4 !== null && item.task_4 !== ''"
+                    class="mt-8"
+                  >
+                    {{ item.task_4 }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              v-if="item.task_5 !== null && item.task_5 !== ''"
+              class="row divider-row"
+            >
+              <div class="col-6">
+                <ul class="body-text">
                   <li
                     v-if="item.task_5 !== null && item.task_5 !== ''"
                     class="mt-8"
                   >
                     {{ item.task_5 }}
                   </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="body-text">
+                  <li
+                    v-if="item.task_6 !== null && item.task_6 !== ''"
+                    class="mt-8"
+                  >
+                    {{ item.task_6 }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              v-if="item.task_7 !== null && item.task_7 !== ''"
+              class="row divider-row"
+            >
+              <div class="col-6">
+                <ul class="body-text">
                   <li
                     v-if="item.task_7 !== null && item.task_7 !== ''"
                     class="mt-8"
                   >
                     {{ item.task_7 }}
                   </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="body-text">
+                  <li
+                    v-if="item.task_8 !== null && item.task_8 !== ''"
+                    class="mt-8"
+                  >
+                    {{ item.task_8 }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              v-if="item.task_9 !== null && item.task_9 !== ''"
+              class="row divider-row"
+            >
+              <div class="col-6">
+                <ul class="body-text">
                   <li
                     v-if="item.task_9 !== null && item.task_9 !== ''"
                     class="mt-8"
                   >
                     {{ item.task_9 }}
                   </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="body-text">
+                  <li
+                    v-if="item.task_10 !== null && item.task_10 !== ''"
+                    class="mt-8"
+                  >
+                    {{ item.task_10 }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              v-if="item.task_11 !== null && item.task_11 !== ''"
+              class="row divider-row"
+            >
+              <div class="col-6">
+                <ul class="body-text">
                   <li
                     v-if="item.task_11 !== null && item.task_11 !== ''"
                     class="mt-8"
                   >
                     {{ item.task_11 }}
                   </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="body-text">
+                  <li
+                    v-if="item.task_12 !== null && item.task_12 !== ''"
+                    class="mt-8"
+                  >
+                    {{ item.task_12 }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              v-if="item.task_13 !== null && item.task_13 !== ''"
+              class="row divider-row"
+            >
+              <div class="col-6">
+                <ul class="body-text">
                   <li
                     v-if="item.task_13 !== null && item.task_13 !== ''"
                     class="mt-8"
@@ -133,39 +247,6 @@
               </div>
               <div class="col-6">
                 <ul class="body-text">
-                  <li v-if="item.task_2 !== null && item.task_2 !== ''">
-                    {{ item.task_2 }}
-                  </li>
-                  <li
-                    v-if="item.task_4 !== null && item.task_4 !== ''"
-                    class="mt-8"
-                  >
-                    {{ item.task_4 }}
-                  </li>
-                  <li
-                    v-if="item.task_6 !== null && item.task_6 !== ''"
-                    class="mt-8"
-                  >
-                    {{ item.task_6 }}
-                  </li>
-                  <li
-                    v-if="item.task_8 !== null && item.task_8 !== ''"
-                    class="mt-8"
-                  >
-                    {{ item.task_8 }}
-                  </li>
-                  <li
-                    v-if="item.task_10 !== null && item.task_10 !== ''"
-                    class="mt-8"
-                  >
-                    {{ item.task_10 }}
-                  </li>
-                  <li
-                    v-if="item.task_12 !== null && item.task_12 !== ''"
-                    class="mt-8"
-                  >
-                    {{ item.task_12 }}
-                  </li>
                   <li
                     v-if="item.task_14 !== null && item.task_14 !== ''"
                     class="mt-8"
@@ -300,6 +381,21 @@ export default {
   }
   .a-experience:last-child {
     margin-bottom: 0;
+  }
+  .divider-row:first-child {
+    border-bottom: 1px solid var(--black06);
+    width: 100%;
+  }
+  .divider-row {
+    border-bottom: 1px solid var(--black06);
+    width: 100%;
+  }
+  .divider-row:last-child {
+    border-bottom: 0px solid var(--black06);
+    width: 100%;
+  }
+  .divider-row > div > ul {
+    margin-bottom: 8px;
   }
 }
 </style>
