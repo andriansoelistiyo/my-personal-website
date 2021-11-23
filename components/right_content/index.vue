@@ -91,6 +91,10 @@ export default {
           id: 17,
           value: 'Nuxt JS',
         },
+        {
+          id: 18,
+          value: 'Design System',
+        },
       ],
       tools: [
         {
