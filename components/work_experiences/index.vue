@@ -18,7 +18,7 @@ export default {
           logo: require('~/assets/img/company/agit.jpg'),
           company: 'Astra Graphia Information Technology',
           type: 'Full Time',
-          occupation: 'UI/UX Designer',
+          occupation: 'Senior UI/UX Designer',
           start_date: 'April 2021',
           end_date: 'Now',
           website: '',
