@@ -57,43 +57,43 @@ export default {
         },
         {
           id: 9,
-          value: 'Prototyping',
+          value: 'Design System',
         },
         {
           id: 10,
-          value: 'Auto layout',
+          value: 'Prototyping',
         },
         {
           id: 11,
-          value: 'Usability Testing',
+          value: 'Auto layout',
         },
         {
           id: 12,
-          value: 'A/B Testing',
+          value: 'Usability Testing',
         },
         {
           id: 13,
-          value: 'HTML',
+          value: 'A/B Testing',
         },
         {
           id: 14,
-          value: 'CSS',
+          value: 'HTML',
         },
         {
           id: 15,
-          value: 'JavaScript',
+          value: 'CSS',
         },
         {
           id: 16,
-          value: 'Vue JS',
+          value: 'JavaScript',
         },
         {
           id: 17,
-          value: 'Nuxt JS',
+          value: 'Vue JS',
         },
         {
           id: 18,
-          value: 'Design System',
+          value: 'Nuxt JS',
         },
       ],
       tools: [
