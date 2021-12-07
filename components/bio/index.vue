@@ -14,7 +14,7 @@ export default {
           id: 1,
           profile_image: require('~/assets/img/profile2.jpeg'),
           name: 'Andrian Soelistiyo',
-          occupation: 'UI/UX Designer',
+          occupation: 'UX Designer',
           city: 'Kota Tangerang, Banten',
           about:
             'Hello, my name is Andrian Soelistiyo, live in Tangerang with my parents. I love help people with technology. That’s why I learn UI/UX Designer, build a product to solve their problem and make an impact for a better life.',
