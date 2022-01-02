@@ -29,7 +29,7 @@ export default {
           task_5: 'Do usability testing with user using useberry app',
           task_6: 'Create design system for website app, mobile app, and tablet app',
           task_7: 'Create documentation for all design process',
-          task_8: 'Collaboration with front end dev to define components, template, and layout',
+          task_8: 'Collaboration with front end dev to define components, templates, and layout',
           task_9: 'Craete visual data using google data studio app',
           task_10: '',
           task_11: '',
