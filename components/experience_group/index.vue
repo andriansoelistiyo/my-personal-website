@@ -40,7 +40,7 @@
               {{ item.start_date }} - {{ item.end_date }}
             </div>
           </div>
-          <div class="mt-16 d-block d-sm-none">
+          <div class="mt-16">
             <ul class="body-text">
               <li v-if="item.task_1 !== null && item.task_1 !== ''">
                 {{ item.task_1 }}
@@ -86,7 +86,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-16 d-none d-sm-block">
+          <div class="mt-16 d-none">
             <div
               v-if="item.task_1 !== null && item.task_1 !== ''"
               class="row divider-row"
