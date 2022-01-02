@@ -22,19 +22,19 @@
         </div>
         <div class="flex-grow-1">
           <div class="head-content">
+            <div class="body-text mb-1 fw-bold">
+              {{ item.occupation }}
+            </div>
             <div v-if="item.website == ''" class="body-text mb-1">
-              <span class="fw-bold">{{ item.company }}</span>
+              <span>{{ item.company }}</span>
               • {{ item.type }}
             </div>
             <div v-else class="body-text mb-1">
-              <span class="fw-bold">{{ item.company }}</span>
+              <span>{{ item.company }}</span>
               • {{ item.type }} •
               <a :href="item.website" target="_blank"
                 >See Project <i class="fas fa-external-link-alt"></i
               ></a>
-            </div>
-            <div class="body-text mb-1">
-              {{ item.occupation }}
             </div>
             <div class="body-text">
               {{ item.start_date }} - {{ item.end_date }}
