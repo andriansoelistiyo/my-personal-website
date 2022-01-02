@@ -348,6 +348,15 @@ export default {
   .a-experience:last-child {
     margin-bottom: 0;
   }
+  .body-text > li:first-child {
+    margin-bottom: 8px;
+  }
+  .body-text > li {
+    margin-bottom: 8px;
+  }
+  .body-text > li:last-child {
+    margin-bottom: 0;
+  }
 }
 
 /* ipad pro screen */
@@ -380,6 +389,15 @@ export default {
   .divider-row > div > ul {
     margin-bottom: 8px;
   }
+  .body-text > li:first-child {
+    margin-bottom: 8px;
+  }
+  .body-text > li {
+    margin-bottom: 8px;
+  }
+  .body-text > li:last-child {
+    margin-bottom: 0;
+  }
 }
 
 /* desktop screen */
@@ -411,6 +429,15 @@ export default {
   }
   .divider-row > div > ul {
     margin-bottom: 8px;
+  }
+  .body-text > li:first-child {
+    margin-bottom: 8px;
+  }
+  .body-text > li {
+    margin-bottom: 8px;
+  }
+  .body-text > li:last-child {
+    margin-bottom: 0;
   }
 }
 </style>
