@@ -23,7 +23,7 @@
           </div>
           <div class="flex-grow-1">
             <div class="content_group">
-              <h1 class="h1-text">{{ item.name }}</h1>
+              <h1 class="h1-text">Hello, I'm {{ item.name }}</h1>
               <div class="body-text">{{ item.occupation }}</div>
               <div class="body-text">{{ item.city }}</div>
             </div>
