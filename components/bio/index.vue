@@ -17,7 +17,7 @@ export default {
           occupation: 'UX Designer',
           city: 'Kota Tangerang, Banten',
           about:
-            'Hello, my name is Andrian Soelistiyo, live in Tangerang with my parents. I love help people with technology. That’s why I learn UI/UX Designer, build a product to solve their problem and make an impact for a better life.',
+            'Hello, my name is Andrian Soelistiyo, live in Tangerang with my parents. Currently I’m 27 years old, I’ve been working for 3+ years as UX Designer and Front End Developer. I love help people with technology, build a product to solve their problem and make an impact for a better life.',
           whatsapp: '87788087738',
           email: 'andrian.socialmedia@gmail.com',
           linkedin: 'Andrian Soelistiyo',
