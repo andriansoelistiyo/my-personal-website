@@ -41,7 +41,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'Hello, my name is Andrian Soelistiyo, live in Tangerang with my parents. Currently I’m 27 years old, I’ve been working for 3+ years as UX Designer and Front End Developer. I love help people with technology, build a product to solve their problem and make an impact for a better life.',
+            'I’ve been working for 3+ years as UX Designer and Front End Developer. I love help people with technology, build a product to solve their problem and make an impact for a better life.',
         },
         {
           name: 'fb:app_id',
@@ -72,7 +72,7 @@ export default {
           name: 'og:description',
           property: 'og:description',
           content:
-            'Hello, my name is Andrian Soelistiyo, live in Tangerang with my parents. Currently I’m 27 years old, I’ve been working for 3+ years as UX Designer and Front End Developer. I love help people with technology, build a product to solve their problem and make an impact for a better life.',
+            'I’ve been working for 3+ years as UX Designer and Front End Developer. I love help people with technology, build a product to solve their problem and make an impact for a better life.',
         },
         { name: 'og:locale', property: 'og:locale', content: 'id_ID' },
         {
@@ -94,7 +94,7 @@ export default {
         {
           name: 'twitter:description',
           content:
-            'Hello, my name is Andrian Soelistiyo, live in Tangerang with my parents. Currently I’m 27 years old, I’ve been working for 3+ years as UX Designer and Front End Developer. I love help people with technology, build a product to solve their problem and make an impact for a better life.',
+            'I’ve been working for 3+ years as UX Designer and Front End Developer. I love help people with technology, build a product to solve their problem and make an impact for a better life.',
         },
         {
           name: 'twitter:image',
